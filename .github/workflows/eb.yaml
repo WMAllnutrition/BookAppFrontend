@@ -42,7 +42,7 @@ jobs:
           application_name: an-toolkit
           environment_name: an-toolkit-env
           version_label: "app-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-1
+          region: sa-east-1
           deployment_package: BookAppFrontend.zip
 
       - name: Deployed!
